@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Pagina-1" id="xXDUhA1cTyPcn6yYdcTW">
-    <mxGraphModel dx="559" dy="1456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1317" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,10 +457,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-14" value="Pagamento" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="930" y="50" width="100" height="40" as="geometry" />
+          <mxGeometry x="934" y="57" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-18" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=1;rotatable=1;perimeter=centerPerimeter;snapToPoint=1;perimeterSpacing=0;strokeWidth=3;movable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="890" y="59.5" width="20" height="21" as="geometry" />
+          <mxGeometry x="894" y="66.5" width="20" height="21" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-19" value="numCarta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
           <mxGeometry x="821.0033333333333" y="50.5" width="80" height="30" as="geometry" />
@@ -469,33 +469,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-24" value="scadenza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
-          <mxGeometry x="874.2533333333333" y="90" width="70" height="30" as="geometry" />
+          <mxGeometry x="878.2533333333333" y="97" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="944.25" y="104" width="10" height="10" as="geometry" />
+          <mxGeometry x="948.25" y="111" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-26" value="mese" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
-          <mxGeometry x="851.0033333333333" y="120" width="50" height="30" as="geometry" />
+          <mxGeometry x="855.0033333333333" y="127" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="905" y="130" width="10" height="10" as="geometry" />
+          <mxGeometry x="909" y="137" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-28" value="anno" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
-          <mxGeometry x="935.0033333333333" y="119" width="50" height="30" as="geometry" />
+          <mxGeometry x="939.0033333333333" y="126" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="985" y="129" width="10" height="10" as="geometry" />
+          <mxGeometry x="989" y="136" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_65jNyK_9H4GoqMfcNRg-29" target="_65jNyK_9H4GoqMfcNRg-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="930" y="170" as="sourcePoint" />
-            <mxPoint x="980" y="120" as="targetPoint" />
+            <mxPoint x="934" y="177" as="sourcePoint" />
+            <mxPoint x="984" y="127" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_65jNyK_9H4GoqMfcNRg-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.595;exitY=-0.061;exitDx=0;exitDy=0;entryX=0.077;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="_65jNyK_9H4GoqMfcNRg-27" target="_65jNyK_9H4GoqMfcNRg-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="994" y="142" as="sourcePoint" />
-            <mxPoint x="958" y="118" as="targetPoint" />
+            <mxPoint x="998" y="149" as="sourcePoint" />
+            <mxPoint x="962" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-4" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;(1,2)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -504,8 +504,8 @@
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-5" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;(1,1)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1106" y="90" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DcfYTmHe-PTY2Npmsw5h-6" value="&lt;div&gt;Modello (&lt;b&gt;&lt;u&gt;id&lt;/u&gt;&lt;/b&gt;, tipo, chiusura, &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Tessuto (&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, materiale, colore, &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Articolo(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, &lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;&lt;div&gt;Borsa(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, imbottitura*,&lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Articolo(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti,&amp;nbsp;sconto*, descrizione, foto, indossabile, &lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Catalogo(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, anno, stagione, sesso, sconto*);&lt;/div&gt;&lt;div&gt;ArticoloOrdine(&lt;u&gt;&lt;b&gt;idArticolo, idOrdine&lt;/b&gt;&lt;/u&gt;, quantità, prezzo)&lt;/div&gt;&lt;div&gt;Ordine(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, indirizzo (via, civico, cap), stato, sconto*);&lt;/div&gt;&lt;div&gt;Cliente(&lt;u&gt;&lt;b&gt;username&lt;/b&gt;&lt;/u&gt;, nome, cognome, email, password, admin);&lt;/div&gt;&lt;div&gt;Pagamento (numCarta, scadenza (mese, anno), intestatario(cognome, nome))&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="538.5" y="575" width="500" height="190" as="geometry" />
+        <mxCell id="DcfYTmHe-PTY2Npmsw5h-6" value="&lt;div&gt;Modello (&lt;b&gt;&lt;u&gt;id&lt;/u&gt;&lt;/b&gt;, tipo, chiusura, &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Tessuto (&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, materiale, colore, &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Articolo(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, &lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;&lt;div&gt;Borsa(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, imbottitura*,&lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Articolo(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti,&amp;nbsp;sconto*, descrizione, foto, indossabile, &lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Catalogo(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, anno, stagione, sesso, sconto*);&lt;/div&gt;&lt;div&gt;ArticoloOrdine(&lt;u&gt;&lt;b&gt;idArticolo, idOrdine&lt;/b&gt;&lt;/u&gt;, quantità, prezzo)&lt;/div&gt;&lt;div&gt;Ordine(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, indirizzo (via, civico, cap), stato, sconto*);&lt;/div&gt;&lt;div&gt;Cliente(&lt;u&gt;&lt;b&gt;username&lt;/b&gt;&lt;/u&gt;, nome, cognome, email, password, admin);&lt;/div&gt;&lt;div&gt;Pagamento (numCarta, scadenza (mese, anno), intestatario(cognome, nome))&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="74" y="595" width="810" height="300" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-7" value="(0, 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="335" y="35" width="40" height="20" as="geometry" />
@@ -555,34 +555,37 @@
           <mxGeometry x="1139.2533333333333" y="366" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1021.87" y="-2" width="10" height="11" as="geometry" />
+          <mxGeometry x="1025.87" y="5" width="10" height="11" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-37" value="nome" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1024.8733333333332" y="-12" width="50" height="30" as="geometry" />
+          <mxGeometry x="1032.8733333333332" y="-5" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="974.12" y="-2" width="10" height="11" as="geometry" />
+          <mxGeometry x="978.12" y="5" width="10" height="11" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-39" value="cognome" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="1">
-          <mxGeometry x="905.1233333333333" y="-12" width="70" height="30" as="geometry" />
+          <mxGeometry x="913.1233333333333" y="-5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-42" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="981.9999999999999" y="30" width="10" height="11" as="geometry" />
+          <mxGeometry x="985.9999999999999" y="37" width="10" height="11" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-43" value="intestatario" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="1">
-          <mxGeometry x="989.0033333333332" y="20" width="80" height="30" as="geometry" />
+          <mxGeometry x="993.0033333333332" y="27" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-49" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DcfYTmHe-PTY2Npmsw5h-42" target="DcfYTmHe-PTY2Npmsw5h-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="990" y="70" as="sourcePoint" />
-            <mxPoint x="1040" y="20" as="targetPoint" />
+            <mxPoint x="994" y="77" as="sourcePoint" />
+            <mxPoint x="1044" y="27" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DcfYTmHe-PTY2Npmsw5h-50" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DcfYTmHe-PTY2Npmsw5h-42" target="DcfYTmHe-PTY2Npmsw5h-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="994" y="42" as="sourcePoint" />
-            <mxPoint x="989" y="11" as="targetPoint" />
+            <mxPoint x="998" y="49" as="sourcePoint" />
+            <mxPoint x="993" y="18" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DcfYTmHe-PTY2Npmsw5h-52" value="La proprietaria del marchio &#39;Crochetique&#39; vuole gestire gli ordini per il suo ecommerce per le sue borsette fatte a mano.&lt;br&gt;Si vuole tener conto di cataloghi stagionali definiti da un codice univoco, un nome, una breve descrizione, la stagione e l’anno del catalogo.&lt;br&gt;&lt;br&gt;&lt;div&gt;L’articolo è definito da un ID, una dimensione (S, M, L), una descrizione, una foto e il numero di volte acquistato (attributo derivabile). Gli articoli possono essere delle borse,&amp;nbsp;&lt;/div&gt;&lt;div&gt;caratterizzate dalla presenza di imbottitura interna e appartenenti a un modello, oppure degli accessori, che possono essere indossabili o non indossabili.&lt;/div&gt;Ogni borsa si basa su un modello, contraddistinto da un ID, un nome e un tipo di chiusura.&lt;br&gt;Ogni articolo è realizzato con un tessuto identificato dal suo codice, il materiale e il colore.&lt;br&gt;Dei clienti si memorizzano username, password, email, nome, cognome e fino a due metodi di pagamento (numero di carta e data di scadenza - attributo multivalore).&lt;br&gt;&lt;div&gt;Ogni cliente può effettuare svariati ordini, ciascuno associato a un ID ordine, uno stato (es. &quot;In attesa&quot;, &quot;Spedito&quot;, &quot;Consegnato&quot;)&amp;nbsp;&lt;/div&gt;&lt;div&gt;e un indirizzo di spedizione (attributo composto: via, civico, CAP, stato).&lt;/div&gt;Gli ordini contengono uno o più articoli e vengono gestiti attraverso l’entità Articolo_Ordine, che tiene traccia della quantità acquistata e del prezzo al momento dell’acquisto.&lt;br&gt;Il prezzo dei prodotti può variare in base a offerte e sconti, che possono essere applicati a un articolo specifico o a un ordine intero." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="56" y="-280" width="1090" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
