@@ -81,7 +81,7 @@ CREATE TABLE Colore(
 -- ordine
 CREATE TABLE Ordine (
 	id int auto_increment primary key,
-    idCliente int references Cliente(id),
+    idCliente int references Cliente(id) on delete cascade,
     sconto int default 0,
     CHECK (sconto BETWEEN 0 AND 99),
     via varchar(30) not null,
@@ -91,11 +91,11 @@ CREATE TABLE Ordine (
 
 -- tabella articoloOrdine
 CREATE TABLE articoloOrdine(
-	idArticolo int REFERENCES Articolo(id),
-    idOrdine int REFERENCES Ordine(id),
+	idArticolo int REFERENCES Articolo(id) on delete cascade,
+    idOrdine int REFERENCES Ordine(id) on delete cascade,
     quantity int default 1 not null,
     prezzoTot decimal(10,2) default 0.00,
-    primary key (idArticolo, idOrdine) 
+    primary key (idArticolo, idOrdine)
 );
 -- trigger per auto update numAcquisti
 DELIMITER $$
