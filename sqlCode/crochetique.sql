@@ -39,38 +39,35 @@ CREATE TABLE Articolo(
     descrizione varchar(100) not null, 
     numAcquisti int default 0,
     dimensione enum('XS','S', 'M', 'L', 'XL'),
-	price decimal(9,2) not null
+	price decimal(9,2) not null,
+    codiceTessuto int REFERENCES Tessuto(codice) on delete set null
 );
-
-
-
 
 -- tabella Borsa
 CREATE TABLE Borsa(
-	id int primary key,
+	id int primary key REFERENCES Articolo(id) on delete cascade, 
     imbottitura varchar(30),
-    FOREIGN KEY (id) REFERENCES Articolo(id)    
+    idModello int REFERENCES Modello(id) on delete cascade
 );
 
 -- tabella Accessorio
 CREATE TABLE Accessorio(
-	id int primary key,
-    indossabile boolean default 0,
-    FOREIGN KEY (id) REFERENCES Articolo(id)    
+	id int primary key REFERENCES Articolo(id) on delete cascade,
+    indossabile boolean default 0
 );
 
 -- tabella modello
 CREATE TABLE Modello(
 	id int auto_increment primary key,
     chiusura enum('Cerniera', 'Clutch', 'Strap', 'Bottone', 'Nessuna') default 'Nessuna',
-    idArticolo int REFERENCES Articolo(id)
+    nome varchar(30) not null
 );
 
 -- tabella tessuto + colore per non avere doppioni di colori(possono essere su tessuti diversi)
 CREATE TABLE Tessuto (
     id int auto_increment primary key,
     materiale varchar(50) not null,
-    idColore char(6) REFERENCES Colore(id)
+    idColore char(6) REFERENCES Colore(id) on delete cascade
 );
 CREATE TABLE Colore(
 	id int auto_increment primary key,
@@ -118,7 +115,7 @@ DELIMITER ;
 -- trigger update prezzo totale  (x cami : l'ho creato ma non sò nemmeno se il prof l'accetta in questo modo o lo vuole diversamente)
 DELIMITER $$
 
-CREATE TRIGGER aggiorna_prezzoTot
+CREATE TRIGGER aggiornaPrezzoTot
 BEFORE INSERT ON articoloOrdine
 FOR EACH ROW
 BEGIN
@@ -134,3 +131,5 @@ BEGIN
 END$$
 
 DELIMITER ;
+
+-- SELEZIONA TUTTI I PRODOTTI CHE SONO STATI ACQUISTATI DA TUTTI I CLIENTI
