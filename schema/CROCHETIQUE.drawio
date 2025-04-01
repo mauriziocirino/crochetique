@@ -566,10 +566,10 @@
           <mxGeometry x="56" y="-285" width="1020" height="230" as="geometry" />
         </mxCell>
         <mxCell id="0vcL2J3cAX6hdxeKRtYv-2" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="50" y="570" width="921" height="350" as="geometry" />
+          <mxGeometry x="50" y="570" width="921" height="365" as="geometry" />
         </mxCell>
-        <mxCell id="DcfYTmHe-PTY2Npmsw5h-6" value="&lt;div&gt;Modello (&lt;b&gt;&lt;u&gt;id&lt;/u&gt;&lt;/b&gt;, tipo, chiusura, &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Tessuto (&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, materiale, colore, &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Articolo(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, &lt;u&gt;idCatalogo, idTessuto&amp;nbsp;&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;&lt;div&gt;Borsa(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, imbottitura*,&lt;u&gt;idCatalogo, idModello&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Articolo(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti,&amp;nbsp;sconto*, descrizione, foto, indossabile, &lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Catalogo(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, anno, stagione, sesso, sconto*);&lt;/div&gt;&lt;div&gt;ArticoloOrdine(&lt;u&gt;&lt;b&gt;idArticolo, idOrdine&lt;/b&gt;&lt;/u&gt;, quantità, prezzo)&lt;/div&gt;&lt;div&gt;Ordine(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, indirizzo (via, civico, cap), stato, sconto*);&lt;/div&gt;&lt;div&gt;Cliente(&lt;u&gt;&lt;b&gt;username&lt;/b&gt;&lt;/u&gt;, nome, cognome, email, password, admin);&lt;/div&gt;&lt;div&gt;Pagamento (numCarta, scadenza (mese, anno), intestatario(cognome, nome))&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="0vcL2J3cAX6hdxeKRtYv-2" vertex="1">
-          <mxGeometry x="31" y="50" width="890" height="300" as="geometry" />
+        <mxCell id="DcfYTmHe-PTY2Npmsw5h-6" value="&lt;div&gt;Modello (&lt;b&gt;&lt;u&gt;id&lt;/u&gt;&lt;/b&gt;, tipo, chiusura, &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Tessuto (&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, materiale, , &lt;u&gt;idArticolo&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;COLORE???&lt;/div&gt;&lt;div&gt;Articolo(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, &lt;u&gt;idCatalogo, idTessuto&amp;nbsp;&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;&lt;div&gt;Borsa(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti, sconto*, descrizione, foto, imbottitura*,&lt;u&gt;idCatalogo, idModello&lt;/u&gt;);&lt;/div&gt;&lt;div&gt;Accessorio(&lt;u&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/u&gt;, dimensione, numAcquisti,&amp;nbsp;sconto*, descrizione, foto, indossabile, &lt;u&gt;idCatalogo&lt;/u&gt;);&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Catalogo(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, anno, stagione, sesso);&lt;/div&gt;&lt;div&gt;ArticoloOrdine(&lt;u&gt;&lt;b&gt;idArticolo, idOrdine&lt;/b&gt;&lt;/u&gt;, quantità, prezzo)&lt;/div&gt;&lt;div&gt;Ordine(&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;, indirizzo (via, civico, cap), stato, sconto*);&lt;/div&gt;&lt;div&gt;Utente(&lt;u&gt;&lt;b&gt;username&lt;/b&gt;&lt;/u&gt;, nome, cognome, email, password, admin);&lt;/div&gt;&lt;div&gt;Pagamento (numCarta, scadenza (mese, anno), intestatario(cognome, nome))&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="0vcL2J3cAX6hdxeKRtYv-2" vertex="1">
+          <mxGeometry x="31" y="35" width="890" height="330" as="geometry" />
         </mxCell>
         <mxCell id="0vcL2J3cAX6hdxeKRtYv-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;SCHEMA CONCETTUALE&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="0vcL2J3cAX6hdxeKRtYv-2" vertex="1">
           <mxGeometry width="300" height="40" as="geometry" />
@@ -586,7 +586,7 @@
         <mxCell id="0vcL2J3cAX6hdxeKRtYv-12" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;(1,1)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="195" y="253" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vcL2J3cAX6hdxeKRtYv-13" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;(1,N)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="0vcL2J3cAX6hdxeKRtYv-13" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;(1,3)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="203" y="325" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C39kT7TjylOSZjS3olK1-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -1152,6 +1152,9 @@
         </mxCell>
         <mxCell id="xJQVdyTMsK0MFFAKk3nu-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1910.496666666667" y="332" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xJQVdyTMsK0MFFAKk3nu-13" value="&lt;div&gt;Stagione (Estate, Autunno, Inverno, Primavera)&lt;/div&gt;&lt;div&gt;stato(Pagato, In Elaborazione, Spedito, Consegnato, Completato)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1013" width="370" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
